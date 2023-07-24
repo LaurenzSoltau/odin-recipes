@@ -12,4 +12,8 @@ p,
     color: white;
 }
 
+li.front {
+    font-size: 28px;
+    color: red;
+}
 
