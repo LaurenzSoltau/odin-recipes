@@ -1,0 +1,15 @@
+* {
+    font-family: Verdana, Tahoma, sans-serif;
+}
+
+p, 
+.heading {
+    text-align: center;
+}
+
+.heading {
+    background-color: red;
+    color: white;
+}
+
+
