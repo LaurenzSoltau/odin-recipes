@@ -1,19 +1,54 @@
 * {
-    font-family: Verdana, Tahoma, sans-serif;
+    font-family: Georgia, 'Times New Roman', Times, serif, Tahoma, sans-serif;
 }
 
-p, 
-.heading {
-    text-align: center;
+body {
+    padding: 0;
+    background-image: url("img/wood.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
+
+#logo {
+    width: 500px;
+    height: auto;
+}
+
 
 .heading {
     background-color: red;
     color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 3em;
 }
 
 li.front {
     font-size: 28px;
     color: red;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+}
+
+#welcome-text,
+#recipes,
+.background {
+    background-color: #ffffffaa;
+    border-radius: 8px;
+    padding: 10px;
+    padding-left: 30px;
+    font-size: 22px;
+}
+
+#welcome-text {
+    padding: 20px;
+   font-size: 1.5em;
 }
 
